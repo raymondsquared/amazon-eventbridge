@@ -1,0 +1,11 @@
+.husky
+
+node_modules
+
+dist
+*.zip
+src/package.json
+src/package-lock.json
+
+.terraform*
+terraform.tfstate*
