@@ -6,16 +6,19 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "airbnb"
   ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2020
   },
   "plugins": [
-    "jest"
+    "jest",
+    "@typescript-eslint"
   ],
   "rules": {
     "no-console": "off"
   }
 }
-

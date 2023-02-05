@@ -12,6 +12,10 @@ lint:
 start:
 	npm start
 
+.PHONY: start-publisher
+ start-publisher:
+	npm run start:publisher
+
 .PHONY: test
 test:
 	npm test
